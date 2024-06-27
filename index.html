@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido al sorteo de Equipos EA FC 24</title>
+    <link rel="stylesheet" href="sorteo.css">
+</head>
+<body>
+    <h1>Bienvenido al sorteo de Equipos EA FC 24</h1>
+    <img id="logo" src="logo.png" alt="Logo de Progames">
+    <table>
+        <thead>
+            <tr>
+                <th>Usuarios</th>
+                <th>Equipos</th>
+                <th>Asignacion Equipo</th>
+                <th>Cruce</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><textarea id="usuarios" placeholder="Ingrese los usuarios, uno por línea..."></textarea></td>
+                <td><textarea id="equipos" placeholder="Ingrese los equipos, uno por línea..."></textarea></td>
+                <td id="asignacionEquipo"></td>
+                <td id="cruce"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="sortear">SORTEO</button>
+    <button id="limpiar">LIMPIAR</button>
+    <button id="exportar">EXPORTAR</button>
+
+    <script src="sorteo.js"></script>
+</body>
+</html>
